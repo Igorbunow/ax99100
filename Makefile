@@ -36,7 +36,7 @@ UNAME := $(shell uname -m)
 ifeq ($(UNAME), x86_64)
 obj-m +=ax99100.o
 obj-m +=parport_pc.o
-ax99100-objs := ax99100_spi.o ax99100_sp.o
+ax99100-objs := ax99100_sp.o
 else
 #ifeq ($(UNAME), aarch64)
 obj-m +=ax99100.o

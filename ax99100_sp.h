@@ -18,7 +18,7 @@
 #define DRV_VERSION	"1.9.0"
 
 
-#define FUNC_SELECT 1	// 0: Serial Port only
+#define FUNC_SELECT 0	// 0: Serial Port only
 			// 1: Serial Port+SPI
 #define INT_TYPE 0	// 0: using legacy interrupt	
 			// 1: using msi interrupt
